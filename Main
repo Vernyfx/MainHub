@@ -10,7 +10,7 @@ task.spawn(function()
 	local queue_on_teleport = (syn and syn.queue_on_teleport) or queue_on_teleport or queueonteleport
 	if queue_on_teleport then
 		pcall(function()
-			queue_on_teleport('loadstring(game:HttpGet"https://raw.githubusercontent.com/SmellLikeHacker/MyEdit/main/Hub")()')
+			queue_on_teleport('loadstring(game:HttpGet"https://raw.githubusercontent.com/Vernyfx/MainHub/main/Main")()')
 		end)
 	end
 end)
