@@ -7,7 +7,10 @@ if _G.Executed then
 end
 _G.Executed = true
 queue_on_teleport([[
+	_G.wl_key
+	_G.Web
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/Vernyfx/MainHub/main/Main'))()
 ]])
-
+	_G.wl_key
+	_G.Web
 loadstring(game:HttpGet('https://scripts.luawl.com/hosted/4744/20394/UltimateTowerDefense.lua'))()
