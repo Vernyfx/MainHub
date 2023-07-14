@@ -1,7 +1,7 @@
 if _G.Executed then
 	game.StarterGui:SetCore("SendNotification", {
 	Title = "Yeat Hub | Paid Script";
-	Text = "Already Executed!",;
+	Text = "Already Executed!";
 	Duration = 5;
 	})
 end
